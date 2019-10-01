@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "customfont1";
+  src: url(BUFFIED_.TTF) format("truetype");
+}
+@font-face {
+  font-family: "customfont2";
+  src: url(Starjedi.ttf) format("truetype");
+}
+@font-face {
+  font-family: "customfont3";
+  src: url(pricedown%20bl.ttf) format("truetype");
+}
+body {
+  text-align: center;
+}
+#h1 {
+  font-family: "customfont1", BUFFIED_;
+  font-size: 200%;
+}
+#p1 {
+  font-family: "customfont2", Starjedi;
+}
+#p2 {
+  font-family: "customfont3", pricedown bl;
+  font-size: 125%;
+}
